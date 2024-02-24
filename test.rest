@@ -1,0 +1,18 @@
+POST  http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{"username":"Cyber21","password":"pabloIscabar23"}
+
+###
+POST  http://127.0.0.1:8000/sign_up
+Content-Type: application/json
+
+{"username":"Cyber21","password":"pabloIscabar23","email":"pablo123@mail.com","first_name":"Masaba","last_name":"Ian"}
+
+###
+
+GET  http://127.0.0.1:8000/test_token
+Content-Type: application/json
+Authorization: Token 52160484f125eaac4ddd4ed66cf0e0be6f71f5b0
+
+
